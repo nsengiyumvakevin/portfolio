@@ -46,7 +46,7 @@ export default function Contact() {
             <FaTwitter size={24} />
           </a>
           <a
-            href="mailto:kevin@example.com"
+            href="mailto:nsengiyumvakevin.com@gmail.com.com"
             className="text-green-400 hover:text-green-500 transition"
             title="Email"
           >
