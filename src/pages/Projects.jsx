@@ -1,6 +1,6 @@
 import { Folder } from "lucide-react";
 import training from "../assets/training.jpg";
-import ai from "../assets/ai.jpg";
+import port from "../assets/port.jpg";
 import ecommerce2 from "../assets/ecommerce2.jpg";
 import ai2 from "../assets/ai2.jpg";
 
@@ -21,7 +21,7 @@ export default function Projects() {
     {
       name: "Portfolio Website",
       desc: "Responsive React website hosted on Vercel.",
-      image: ai
+      image: port
     },
     {
       name: "E-commerce Platform",
