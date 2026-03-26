@@ -1,4 +1,5 @@
 import k2 from "../assets/k2.jpg"; 
+import {Link} from "react-router-dom"
 
 export default function Hero() {
   return (
@@ -22,18 +23,18 @@ export default function Hero() {
         </p>
         
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-          <a
-            href="/projects"
+          <Link
+            to={"/projects"}
             className="px-8 py-3 bg-green-500 text-[#0a0a0a] font-bold rounded-lg hover:bg-green-400 transition-all duration-300 text-center"
           >
             View My Work
-          </a>
-          <a
-            href="/contact"
+          </Link>
+          <Link
+            to={"/contact"}
             className="px-8 py-3 border border-green-400 text-green-400 rounded-lg hover:bg-green-500/10 transition-all duration-300 text-center"
           >
             Contact Me
-          </a>
+          </Link>
         </div>
       </div>
 

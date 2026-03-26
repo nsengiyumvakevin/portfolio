@@ -1,6 +1,7 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
+
 export default function ContactPage() {
   return (
     <section className="min-h-screen py-20 px-6 md:px-16 lg:px-24 bg-[#0a0a0a]">
